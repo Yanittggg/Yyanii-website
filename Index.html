@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined Buttons</title>
+  <style>
+    /* Background image */
+    body {
+      background-image: url('pink.jpg');
+      background-size: cover;
+      background-position: center;
+      /* Add more styles as needed */
+    }
+
+    /* Uber Button style */
+    .uber-button {
+      background-color: #333333;
+      color: #fff;
+      padding: 50px 60px;
+      border-radius: 0;
+      font-size: 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+    .uber-button:hover {
+      background-color: #333;
+    }
+
+    /* Amazon Button style */
+    .amazon-button {
+      display: inline-block;
+      padding: 50px 60px;
+      font-size: 40px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #ff9900;
+      border: 2px solid #ff9900;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .amazon-button:hover {
+      background-color: #ffbf00;
+      border-color: #ffbf00;
+    }
+
+    /* GitHub Button style */
+    .github-button {
+      background-color: green;
+      border: none;
+      color: white;
+      padding: 50px 60px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 40px;
+      margin: 6px 4px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .github-button:hover {
+      background-color: green;
+    }
+
+    /* Centering all buttons */
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <center><h1>3a. Uber</h1></center>
+  <a href="#" class="uber-button">Request now</a>
+
+  <center><h1>3b. Amazon</h1></center>
+  <a href="#" class="amazon-button">Add to Cart</a>
+
+  <center><h1>3c. GitHub</h1></center>
+  <button class="github-button">Sign up</button>
+</body>
+</html>
